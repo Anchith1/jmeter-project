@@ -34,10 +34,10 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Install Jmeter
         run: |
-          curl -O https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.4.1.zip
-unzip apache-jmeter-5.4.1.zip
+          curl -O https://archive.apache.org/dist/jmeter/binaries/apache-jmeter-5.4.1.zip,
+unzip apache-jmeter-5.4.1.zip,
 
-export JMETER_HOME=$PWD/apache-jmeter-5.4.1
+export JMETER_HOME=$PWD/apache-jmeter-5.4.1,
 export PATH=$JMETER_HOME/bin:$PATH
 
 
